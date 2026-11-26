@@ -1,0 +1,45 @@
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+.coverage
+htmlcov/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+.aws/
+.codex/
+.agents/
+.ssh/
+*credentials*
+*secret*
+*.pem
+*.key
+*.p12
+*.pfx
+*.log
+
+# Local data and downloaded models
+data/
+models/
+.cache/
+*.db
+*.sqlite*
+*.safetensors
+*.pt
+*.pth
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+*~
